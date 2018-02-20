@@ -1,0 +1,53 @@
+{
+    "name": "superbig/craft-pjax",
+    "description": "Automatically sets the headers and returns only the container that PJAX expects, automagically",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "pjax"
+    ],
+    "support": {
+        "docs": "https://github.com/sjelfull/craft-pjax/blob/master/README.md",
+        "issues": "https://github.com/sjelfull/craft-pjax/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Superbig",
+            "homepage": "https://superbig.co"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-beta.23",
+        "symfony/dom-crawler": "^2.7|^3.0|^4.0",
+        "symfony/css-selector": "^2.7|^3.0|^4.0",
+        "tightenco/collect": "^5.5"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "superbig\\pjax\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "PJAX",
+        "handle": "pjax",
+        "schemaVersion": "1.0.0",
+        "hasCpSettings": true,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/sjelfull/craft-pjax/master/CHANGELOG.md",
+        "components": {
+            "pjaxService": "superbig\\pjax\\services\\PJAXService"
+        },
+        "class": "superbig\\pjax\\PJAX"
+    }
+}
