@@ -80,17 +80,4 @@ class PJAX extends Plugin
     {
         return new Settings();
     }
-
-    /**
-     * @inheritdoc
-     */
-    protected function settingsHtml(): string
-    {
-        return Craft::$app->view->renderTemplate(
-            'pjax/settings',
-            [
-                'settings' => $this->getSettings()
-            ]
-        );
-    }
 }

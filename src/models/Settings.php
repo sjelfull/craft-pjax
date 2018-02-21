@@ -26,9 +26,9 @@ class Settings extends Model
     // =========================================================================
 
     /**
-     * @var string
+     * @var bool
      */
-    public $someAttribute = 'Some Default';
+    public $enabled = true;
 
     // Public Methods
     // =========================================================================
@@ -39,8 +39,6 @@ class Settings extends Model
     public function rules()
     {
         return [
-            ['someAttribute', 'string'],
-            ['someAttribute', 'default', 'value' => 'Some Default'],
         ];
     }
 }

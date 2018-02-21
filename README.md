@@ -24,6 +24,8 @@ To install the plugin, follow these instructions.
 
 ## PJAX Overview
 
--Insert text here-
+[pjax](https://github.com/defunkt/jquery-pjax) is a jQuery plugin that uses ajax and pushState to deliver a fast browsing experience with real permalinks, page titles, and a working back button.
+
+pjax works by fetching HTML from your server via ajax and replacing the content of a container element on your page with the loaded HTML. It then updates the current URL in the browser using pushState.
 
 Brought to you by [Superbig](https://superbig.co)

@@ -62,8 +62,6 @@ class PJAXService extends Component
              ->setVersionHeader($output, $response);
 
         return $this->_output;
-
-        // if (PJAX::$plugin->getSettings()->someAttribute) {}
     }
 
     public function isPJAX()
