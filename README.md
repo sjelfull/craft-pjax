@@ -2,7 +2,7 @@
 
 Automagically return the headers and container that PJAX expects
 
-![Screenshot](resources/img/icon.png)
+![Icon](resources/img/icon.png)
 
 ## Requirements
 
