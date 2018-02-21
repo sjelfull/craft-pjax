@@ -1,8 +1,8 @@
 # PJAX plugin for Craft CMS 3.x
 
-Return only the container that PJAX expects, automagically
+Automagically return the headers and container that PJAX expects
 
-![Screenshot](resources/img/plugin-logo.png)
+![Screenshot](resources/img/icon.png)
 
 ## Requirements
 
@@ -18,26 +18,12 @@ To install the plugin, follow these instructions.
 
 2. Then tell Composer to load the plugin:
 
-        composer require sjelfull/pjax
+        composer require superbig/craft-pjax
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for PJAX.
 
 ## PJAX Overview
 
 -Insert text here-
-
-## Configuring PJAX
-
--Insert text here-
-
-## Using PJAX
-
--Insert text here-
-
-## PJAX Roadmap
-
-Some things to do, and ideas for potential features:
-
-* Release it
 
 Brought to you by [Superbig](https://superbig.co)

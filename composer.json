@@ -1,6 +1,6 @@
 {
     "name": "superbig/craft-pjax",
-    "description": "Automatically sets the headers and returns only the container that PJAX expects, automagically",
+    "description": "Automagically return the headers and container that PJAX expects",
     "type": "craft-plugin",
     "version": "1.0.0",
     "keywords": [
